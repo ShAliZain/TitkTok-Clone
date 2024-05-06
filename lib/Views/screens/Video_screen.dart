@@ -7,7 +7,7 @@ import 'package:tiktok_clone/constants.dart';
 import 'package:get/get.dart';
 
 class VideoScreen extends StatelessWidget {
-  VideoScreen({Key? key}) : super(key: key);
+  VideoScreen({super.key});
 
   final VideoController videoController = Get.put(VideoController());
 
